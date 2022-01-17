@@ -20,8 +20,8 @@
 
             <HorizontalScrollView
                 android:id="@+id/one_day"
-                android:layout_width="match_parent"
-                android:layout_height="200sp">
+                android:layout_width="wrap_content"
+                android:layout_height="160sp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
 
                     <TextView
                         android:id="@+id/day_1_00"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -42,7 +42,7 @@
 
                     <TextView
                         android:id="@+id/day_1_03"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -53,7 +53,7 @@
 
                     <TextView
                         android:id="@+id/day_1_06"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -64,7 +64,7 @@
 
                     <TextView
                         android:id="@+id/day_1_09"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -75,7 +75,7 @@
 
                     <TextView
                         android:id="@+id/day_1_12"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -86,7 +86,7 @@
 
                     <TextView
                         android:id="@+id/day_1_15"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -97,7 +97,7 @@
 
                     <TextView
                         android:id="@+id/day_1_18"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -108,7 +108,7 @@
 
                     <TextView
                         android:id="@+id/day_1_21"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -122,7 +122,7 @@
             <HorizontalScrollView
                 android:id="@+id/two_day"
                 android:layout_width="match_parent"
-                android:layout_height="200sp">
+                android:layout_height="160sp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -133,7 +133,7 @@
 
                     <TextView
                         android:id="@+id/day_2_00"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -144,7 +144,7 @@
 
                     <TextView
                         android:id="@+id/day_2_03"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -155,7 +155,7 @@
 
                     <TextView
                         android:id="@+id/day_2_06"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -166,7 +166,7 @@
 
                     <TextView
                         android:id="@+id/day_2_09"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -177,7 +177,7 @@
 
                     <TextView
                         android:id="@+id/day_2_12"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -188,7 +188,7 @@
 
                     <TextView
                         android:id="@+id/day_2_15"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -199,7 +199,7 @@
 
                     <TextView
                         android:id="@+id/day_2_18"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -210,7 +210,7 @@
 
                     <TextView
                         android:id="@+id/day_2_21"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -224,7 +224,7 @@
             <HorizontalScrollView
                 android:id="@+id/three_day"
                 android:layout_width="match_parent"
-                android:layout_height="200sp">
+                android:layout_height="160sp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -235,7 +235,7 @@
 
                     <TextView
                         android:id="@+id/day_3_00"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -246,7 +246,7 @@
 
                     <TextView
                         android:id="@+id/day_3_03"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -257,7 +257,7 @@
 
                     <TextView
                         android:id="@+id/day_3_06"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -268,7 +268,7 @@
 
                     <TextView
                         android:id="@+id/day_3_09"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -279,7 +279,7 @@
 
                     <TextView
                         android:id="@+id/day_3_12"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -290,7 +290,7 @@
 
                     <TextView
                         android:id="@+id/day_3_15"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -301,7 +301,7 @@
 
                     <TextView
                         android:id="@+id/day_3_18"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -312,7 +312,7 @@
 
                     <TextView
                         android:id="@+id/day_3_21"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -326,7 +326,7 @@
             <HorizontalScrollView
                 android:id="@+id/four_day"
                 android:layout_width="match_parent"
-                android:layout_height="200sp">
+                android:layout_height="160sp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -337,7 +337,7 @@
 
                     <TextView
                         android:id="@+id/day_4_00"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -348,7 +348,7 @@
 
                     <TextView
                         android:id="@+id/day_4_03"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -359,7 +359,7 @@
 
                     <TextView
                         android:id="@+id/day_4_06"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -370,7 +370,7 @@
 
                     <TextView
                         android:id="@+id/day_4_09"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -381,7 +381,7 @@
 
                     <TextView
                         android:id="@+id/day_4_12"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -392,7 +392,7 @@
 
                     <TextView
                         android:id="@+id/day_4_15"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -403,7 +403,7 @@
 
                     <TextView
                         android:id="@+id/day_4_18"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -414,7 +414,7 @@
 
                     <TextView
                         android:id="@+id/day_4_21"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -428,7 +428,7 @@
             <HorizontalScrollView
                 android:id="@+id/five_day"
                 android:layout_width="match_parent"
-                android:layout_height="200sp">
+                android:layout_height="160sp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -439,7 +439,7 @@
 
                     <TextView
                         android:id="@+id/day_5_00"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -450,7 +450,7 @@
 
                     <TextView
                         android:id="@+id/day_5_03"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -461,7 +461,7 @@
 
                     <TextView
                         android:id="@+id/day_5_06"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -472,7 +472,7 @@
 
                     <TextView
                         android:id="@+id/day_5_09"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -483,7 +483,7 @@
 
                     <TextView
                         android:id="@+id/day_5_12"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -494,7 +494,7 @@
 
                     <TextView
                         android:id="@+id/day_5_15"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -505,7 +505,7 @@
 
                     <TextView
                         android:id="@+id/day_5_18"
-                        android:layout_width="wrap_content"
+                        android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
@@ -516,8 +516,8 @@
 
                     <TextView
                         android:id="@+id/day_5_21"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_width="140sp"
+                        android:layout_height="160sp"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"

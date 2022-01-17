@@ -62,7 +62,7 @@ class DetailActivity : AppCompatActivity() {
 
             synchronized(this){
                 runOnUiThread({
-                    day_1_00?.text = "$day $time \n$desc \n $temp°, $speed м/с "
+                    day_1_00?.text = "$day $time:00 \n$desc \n $temp°, $speed м/с "
                 })
             }
         }
