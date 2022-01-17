@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detail_weather_layot"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <HorizontalScrollView
+                android:id="@+id/one_day"
+                android:layout_width="match_parent"
+                android:layout_height="200sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30sp"
+                    android:isScrollContainer="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/day_1_00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_1_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_1_06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_1_09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_1_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_1_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_1_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_1_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/two_day"
+                android:layout_width="match_parent"
+                android:layout_height="200sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30sp"
+                    android:isScrollContainer="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/day_2_00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_2_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_2_06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_2_09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_2_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_2_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_2_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_2_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/three_day"
+                android:layout_width="match_parent"
+                android:layout_height="200sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30sp"
+                    android:isScrollContainer="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/day_3_00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_3_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_3_06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_3_09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_3_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_3_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_3_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_3_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/four_day"
+                android:layout_width="match_parent"
+                android:layout_height="200sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30sp"
+                    android:isScrollContainer="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/day_4_00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_4_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_4_06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_4_09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_4_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_4_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_4_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_4_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/five_day"
+                android:layout_width="match_parent"
+                android:layout_height="200sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:isScrollContainer="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/day_5_00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_5_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_5_06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_5_09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_5_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_5_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_5_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/day_5_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5sp"
+                        android:background="@color/purple_500"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/detail"
+                        android:textColor="#E1BEE7"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

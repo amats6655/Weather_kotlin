@@ -2,17 +2,17 @@ package ru.mrkotik.weather
 
 import android.annotation.SuppressLint
 import android.media.MediaPlayer
-import android.media.MediaPlayer.OnPreparedListener
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.*
 import org.jetbrains.anko.doAsync
 import org.json.JSONObject
 import java.net.URL
 import java.util.*
+import android.content.Intent
+
 
 class MainActivity : AppCompatActivity() {
     private var city_field: EditText? = null
@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
     private var result_info: TextView? = null
     private var videoView: VideoView? = null
 
-    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -30,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         main_btn = findViewById(R.id.main_btn)
         detail = findViewById(R.id.detail)
         result_info = findViewById(R.id.result_info)
+        detail?.setVisibility(View.GONE) // Скрыть кнопку детального прогноза погоды
 
 
     }
@@ -64,13 +64,16 @@ class MainActivity : AppCompatActivity() {
 
                     val wind = JSONObject(apiResponse).getJSONObject("wind")
                     val speed = wind.getString("speed")
-                    val gusd = wind.getString("gust")
+                    val gust = wind.getString("gust")
+                    val name = JSONObject(apiResponse).getString("name")
 
                     synchronized(this) {
                         runOnUiThread(Runnable {
-                            result_info?.text = "В городе ${city.capitalize()} сейчас $desc" +
+                            result_info?.text = "В городе $name сейчас $desc" +
                                     "\n\nТемпература воздуха $temp°,\nОщущается как: $feels_like°" +
-                                    "\n\nВлажность: $humidity%\n\nСкорость ветра: $speed м/с, порывами до $gusd м/с."
+                                    "\n\nВлажность: $humidity%\n\nСкорость ветра: $speed м/с, порывами до $gust м/с."
+
+                            detail?.setVisibility(View.VISIBLE)
 
                             videoView!!.setOnPreparedListener { mp: MediaPlayer ->
                                 mp.isLooping = true
@@ -111,6 +114,16 @@ class MainActivity : AppCompatActivity() {
 
             }
 
+        }
+//        var detail = Button(this)
+//        detail.layoutParams = RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+//        detail.text = "Прогноз на 5 дней"
+        detail?.setOnClickListener{
+            videoView!!.stopPlayback()
+            val intent = Intent(this@MainActivity, DetailActivity::class.java)
+            intent.putExtra("city", city_field?.text.toString()) // Передаем данные о городе в следующий activity
+            intent.putExtra("key", "de1f3667886b5164d0616ae406eadda3" )
+            startActivity(intent)
         }
     }
 

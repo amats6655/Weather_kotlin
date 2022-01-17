@@ -59,14 +59,14 @@
         android:id="@+id/result_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/material_on_surface_stroke"
         android:layout_below="@id/main_btn"
         android:layout_marginHorizontal="30sp"
-        android:layout_marginTop="300sp"
+        android:layout_marginTop="50sp"
+        android:alpha="0"
+        android:background="@color/material_on_surface_emphasis_medium"
         android:fontFamily="sans-serif-black"
-        android:textSize="17sp"
-        android:textColor="@color/purple_500"
-        android:alpha="0"/>
+        android:textColor="@color/white"
+        android:textSize="17sp" />
     <Button
         android:id="@+id/detail"
         android:layout_width="match_parent"
