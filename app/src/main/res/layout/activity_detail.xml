@@ -31,34 +31,12 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/day_1_00"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
                         android:id="@+id/day_1_03"
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_1_06"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -69,18 +47,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_1_12"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -91,18 +57,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_1_18"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -113,7 +67,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
                 </LinearLayout>
@@ -132,35 +85,12 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/day_2_00"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
                         android:id="@+id/day_2_03"
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_2_06"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -171,18 +101,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_2_12"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -193,18 +111,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_2_18"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -215,7 +121,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
                 </LinearLayout>
@@ -234,35 +139,12 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/day_3_00"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
                         android:id="@+id/day_3_03"
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_3_06"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -273,18 +155,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_3_12"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -295,18 +165,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_3_18"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -317,7 +175,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
                 </LinearLayout>
@@ -336,35 +193,12 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/day_4_00"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
                         android:id="@+id/day_4_03"
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_4_06"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -375,18 +209,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_4_12"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -397,18 +219,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_4_18"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -419,7 +229,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
                 </LinearLayout>
@@ -438,35 +247,12 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/day_5_00"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
                         android:id="@+id/day_5_03"
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_5_06"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -477,18 +263,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_5_12"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -499,18 +273,6 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
-                        android:textColor="#E1BEE7"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:id="@+id/day_5_18"
-                        android:layout_width="140sp"
-                        android:layout_height="match_parent"
-                        android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
-                        android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
 
@@ -521,9 +283,9 @@
                         android:layout_marginHorizontal="5sp"
                         android:background="@color/purple_500"
                         android:fontFamily="sans-serif-black"
-                        android:text="@string/detail"
                         android:textColor="#E1BEE7"
                         android:textSize="17sp" />
+
                 </LinearLayout>
             </HorizontalScrollView>
         </LinearLayout>
