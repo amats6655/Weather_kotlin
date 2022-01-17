@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="logo">Погода в вашем городе</string>
+    <string name="city_field">Введите ваш город</string>
+    <string name="main_btn">Узнать погоду</string>
+    <string name="no_input">Введите ваш город</string>
+    <string name="detail">Прогноз на 5 дней</string>
+</resources>
