@@ -3,6 +3,7 @@ package ru.mrkotik.weather
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import org.jetbrains.anko.doAsync
@@ -12,30 +13,30 @@ import java.net.URL
 import java.time.LocalDate
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
-import java.util.ArrayList
+import java.util.*
 
 
 class DetailActivity : AppCompatActivity() {
-    private var day_1_03: TextView? = null
-    private var day_1_09: TextView? = null
-    private var day_1_15: TextView? = null
-    private var day_1_21: TextView? = null
-    private var day_2_03: TextView? = null
-    private var day_2_09: TextView? = null
-    private var day_2_15: TextView? = null
-    private var day_2_21: TextView? = null
-    private var day_3_03: TextView? = null
-    private var day_3_09: TextView? = null
-    private var day_3_15: TextView? = null
-    private var day_3_21: TextView? = null
-    private var day_4_03: TextView? = null
-    private var day_4_09: TextView? = null
-    private var day_4_15: TextView? = null
-    private var day_4_21: TextView? = null
-    private var day_5_03: TextView? = null
-    private var day_5_09: TextView? = null
-    private var day_5_15: TextView? = null
-    private var day_5_21: TextView? = null
+        private var day_1_03: TextView? = null
+        private var day_1_09: TextView? = null
+        private var day_1_15: TextView? = null
+        private var day_1_21: TextView? = null
+        private var day_2_03: TextView? = null
+        private var day_2_09: TextView? = null
+        private var day_2_15: TextView? = null
+        private var day_2_21: TextView? = null
+        private var day_3_03: TextView? = null
+        private var day_3_09: TextView? = null
+        private var day_3_15: TextView? = null
+        private var day_3_21: TextView? = null
+        private var day_4_03: TextView? = null
+        private var day_4_09: TextView? = null
+        private var day_4_15: TextView? = null
+        private var day_4_21: TextView? = null
+        private var day_5_03: TextView? = null
+        private var day_5_09: TextView? = null
+        private var day_5_15: TextView? = null
+        private var day_5_21: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,10 +62,6 @@ class DetailActivity : AppCompatActivity() {
         day_5_09 = findViewById(R.id.day_5_09)
         day_5_15 = findViewById(R.id.day_5_15)
         day_5_21 = findViewById(R.id.day_5_21)
-
-
-
-
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
@@ -74,6 +71,13 @@ class DetailActivity : AppCompatActivity() {
         val key = intent.getStringExtra("key")
         val url = "https://api.openweathermap.org/data/2.5/forecast?q=$city&appid=$key&units=metric&lang=ru"
 
+        val text_views = listOf(day_1_03,day_1_09,day_1_15,day_1_21,day_2_03,day_2_09,day_2_15,
+            day_2_21,day_3_03,day_3_09,day_3_15,day_3_21,day_4_03,day_4_09,day_4_15,
+            day_4_21,day_5_03,day_5_09,day_5_15,day_5_21)
+
+        for (i in 0 until 19){
+            text_views.get(i)?.visibility = View.GONE
+        }
         doAsync {
             val apiResponse = URL(url).readText()
 
@@ -85,10 +89,8 @@ class DetailActivity : AppCompatActivity() {
 
 // Преобразуем JSONArray в ArrayList
 
-                    var list: JSONArray = JSONObject(apiResponse).getJSONArray("list")
+                    val list = JSONObject(apiResponse).getJSONArray("list")
                     val formatted_list = arrayListOf<String>()
-
-
                     // Запихиваем вытащенные и отформатированные данные в formattedlist
                     for (i in 0 until list.length()) {
                         if (LocalTime.parse(list.getJSONObject(i).getString("dt_txt"), dateformatter).hour.toString() == "0" ||
@@ -110,30 +112,38 @@ class DetailActivity : AppCompatActivity() {
                         formatted_list.add("$day $time:00 \n$desc \n$temp°, $speed м/с")
                     }
 
-
-
-
-                    day_1_03?.text = formatted_list.get(0)
-                    day_1_09?.text = formatted_list.get(1)
-                    day_1_15?.text = formatted_list.get(2)
-                    day_1_21?.text = formatted_list.get(3)
-                    day_2_03?.text = formatted_list.get(4)
-                    day_2_09?.text = formatted_list.get(5)
-                    day_2_15?.text = formatted_list.get(6)
-                    day_2_21?.text = formatted_list.get(7)
-                    day_3_03?.text = formatted_list.get(8)
-                    day_3_09?.text = formatted_list.get(9)
-                    day_3_15?.text = formatted_list.get(10)
-                    day_3_21?.text = formatted_list.get(11)
-                    day_4_03?.text = formatted_list.get(12)
-                    day_4_09?.text = formatted_list.get(13)
-                    day_4_15?.text = formatted_list.get(14)
-                    day_4_21?.text = formatted_list.get(15)
-                    day_5_03?.text = formatted_list.get(16)
-                    day_5_09?.text = formatted_list.get(17)
-                    day_5_15?.text = formatted_list.get(18)
-                    day_5_21?.text = formatted_list.get(19)
-
+                    if ("3:00" in formatted_list.get(0)){
+                        (0 until 19).forEach { i ->
+                            text_views.get(i)?.visibility = View.VISIBLE
+                        }
+                        (0 until 19).forEach { i ->
+                            text_views.get(i)?.text = formatted_list.get(i)
+                        }
+                    }
+                    else if("9:00" in formatted_list.get(0)){
+                        (1 until 19).forEach { i ->
+                            text_views.get(i)?.visibility = View.VISIBLE
+                        }
+                        (1 until 19).forEach { i ->
+                            text_views.get(i)?.text = formatted_list.get(i-1)
+                        }
+                    }
+                    else if("15:00" in formatted_list.get(0)){
+                        (2 until 19).forEach { i ->
+                            text_views.get(i)?.visibility = View.VISIBLE
+                        }
+                        (2 until 19).forEach { i ->
+                            text_views.get(i)?.text = formatted_list.get(i-2)
+                        }
+                    }
+                    else if("21:00" in formatted_list.get(0)){
+                        (3 until 19).forEach { i ->
+                            text_views.get(i)?.visibility = View.VISIBLE
+                        }
+                        (3 until 19).forEach { i ->
+                            text_views.get(i)?.text = formatted_list.get(i-3)
+                        }
+                    }
                 }
             }
         }
