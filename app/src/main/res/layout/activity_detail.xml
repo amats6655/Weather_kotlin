@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@drawable/cloudy"
     tools:context=".DetailActivity">
 
     <ScrollView
@@ -35,9 +35,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -45,9 +45,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -55,9 +55,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -65,9 +65,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -89,9 +89,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -99,9 +99,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -109,9 +109,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -119,9 +119,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -143,9 +143,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -153,9 +153,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -163,9 +163,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -173,9 +173,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -197,9 +197,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -207,9 +207,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -217,9 +217,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -227,9 +227,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -251,9 +251,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -261,9 +261,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -271,9 +271,9 @@
                         android:layout_width="140sp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                     <TextView
@@ -281,9 +281,9 @@
                         android:layout_width="140sp"
                         android:layout_height="160sp"
                         android:layout_marginHorizontal="5sp"
-                        android:background="@color/purple_500"
+                        android:background="#652C2C2C"
                         android:fontFamily="sans-serif-black"
-                        android:textColor="#E1BEE7"
+                        android:textColor="@android:color/primary_text_dark"
                         android:textSize="17sp" />
 
                 </LinearLayout>

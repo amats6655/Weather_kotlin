@@ -63,7 +63,7 @@
         android:layout_marginHorizontal="30sp"
         android:layout_marginTop="50sp"
         android:alpha="0"
-        android:background="@color/material_on_surface_emphasis_medium"
+        android:background="#652C2C2C"
         android:fontFamily="sans-serif-black"
         android:textColor="@color/white"
         android:textSize="17sp" />

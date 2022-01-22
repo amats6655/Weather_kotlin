@@ -113,34 +113,34 @@ class DetailActivity : AppCompatActivity() {
                     }
 
                     if ("3:00" in formatted_list.get(0)){
-                        (0 until 19).forEach { i ->
+                        (0 until 20).forEach { i ->
                             text_views.get(i)?.visibility = View.VISIBLE
                         }
-                        (0 until 19).forEach { i ->
+                        (0 until 20).forEach { i ->
                             text_views.get(i)?.text = formatted_list.get(i)
                         }
                     }
                     else if("9:00" in formatted_list.get(0)){
-                        (1 until 19).forEach { i ->
+                        (1 until 20).forEach { i ->
                             text_views.get(i)?.visibility = View.VISIBLE
                         }
-                        (1 until 19).forEach { i ->
+                        (1 until 20).forEach { i ->
                             text_views.get(i)?.text = formatted_list.get(i-1)
                         }
                     }
                     else if("15:00" in formatted_list.get(0)){
-                        (2 until 19).forEach { i ->
+                        (2 until 20).forEach { i ->
                             text_views.get(i)?.visibility = View.VISIBLE
                         }
-                        (2 until 19).forEach { i ->
+                        (2 until 20).forEach { i ->
                             text_views.get(i)?.text = formatted_list.get(i-2)
                         }
                     }
                     else if("21:00" in formatted_list.get(0)){
-                        (3 until 19).forEach { i ->
+                        (3 until 20).forEach { i ->
                             text_views.get(i)?.visibility = View.VISIBLE
                         }
-                        (3 until 19).forEach { i ->
+                        (3 until 20).forEach { i ->
                             text_views.get(i)?.text = formatted_list.get(i-3)
                         }
                     }
