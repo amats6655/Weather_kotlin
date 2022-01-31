@@ -84,7 +84,7 @@ class DetailActivity : AppCompatActivity() {
             synchronized(this){
 
                 runOnUiThread {
-                    val dateformatter = DateTimeFormatter.ofPattern("yyyy-MM-DD HH:mm:ss")
+                    val dateformatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
                     var id = 0
 
 // Преобразуем JSONArray в ArrayList
@@ -93,8 +93,8 @@ class DetailActivity : AppCompatActivity() {
                     val formatted_list = arrayListOf<String>()
                     // Запихиваем вытащенные и отформатированные данные в formattedlist
                     for (i in 0 until list.length()) {
-                        if (LocalTime.parse(list.getJSONObject(i).getString("dt_txt"), dateformatter).hour.toString() == "0" ||
-                            LocalTime.parse(list.getJSONObject(i).getString("dt_txt"), dateformatter).hour.toString() == "6" ||
+                        if (LocalTime.parse(list.getJSONObject(i).getString("dt_txt"), dateformatter).hour.toString() == "0"  ||
+                            LocalTime.parse(list.getJSONObject(i).getString("dt_txt"), dateformatter).hour.toString() == "6"  ||
                             LocalTime.parse(list.getJSONObject(i).getString("dt_txt"), dateformatter).hour.toString() == "12" ||
                             LocalTime.parse(list.getJSONObject(i).getString("dt_txt"), dateformatter).hour.toString() == "18"){
                             continue
