@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.find
 import org.json.JSONArray
 import org.json.JSONObject
 import java.net.URL
@@ -37,6 +38,7 @@ class DetailActivity : AppCompatActivity() {
         private var day_5_09: TextView? = null
         private var day_5_15: TextView? = null
         private var day_5_21: TextView? = null
+        private var city_view: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -62,6 +64,7 @@ class DetailActivity : AppCompatActivity() {
         day_5_09 = findViewById(R.id.day_5_09)
         day_5_15 = findViewById(R.id.day_5_15)
         day_5_21 = findViewById(R.id.day_5_21)
+        city_view = findViewById(R.id.city)
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
@@ -70,7 +73,7 @@ class DetailActivity : AppCompatActivity() {
         val city = intent.getStringExtra("city")
         val key = intent.getStringExtra("key")
         val url = "https://api.openweathermap.org/data/2.5/forecast?q=$city&appid=$key&units=metric&lang=ru"
-
+        city_view?.text = city
         val text_views = listOf(day_1_03,day_1_09,day_1_15,day_1_21,day_2_03,day_2_09,day_2_15,
             day_2_21,day_3_03,day_3_09,day_3_15,day_3_21,day_4_03,day_4_09,day_4_15,
             day_4_21,day_5_03,day_5_09,day_5_15,day_5_21)
