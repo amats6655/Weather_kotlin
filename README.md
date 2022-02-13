@@ -1,6 +1,6 @@
 # Weather_kotlin
 
-Weather forecast app with video backgrounds that change according to the current weatherд
+Weather forecast app with video backgrounds that change according to the current weather
 
 <div>
 <img src="https://github.com/amats6655/Weather_kotlin/blob/main/Record_2022-02-01-10-47-06-1.gif?raw=true" height="500" />
